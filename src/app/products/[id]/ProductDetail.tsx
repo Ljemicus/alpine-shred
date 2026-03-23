@@ -53,9 +53,12 @@ export default function ProductDetail({ id }: { id: string }) {
         <div
           className={`aspect-[3/4] bg-gradient-to-br ${product.gradient} rounded-2xl relative overflow-hidden`}
         >
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-24 h-72 bg-white/20 rounded-xl rotate-6 backdrop-blur-sm border border-white/30 shadow-2xl" />
-          </div>
+          <img
+            src={product.image}
+            alt={`${product.brand} ${product.name}`}
+            className="absolute inset-0 w-full h-full object-contain p-6 drop-shadow-2xl"
+            loading="lazy"
+          />
           <div className="absolute top-4 left-4 bg-black/50 backdrop-blur-sm text-white text-sm font-medium px-3 py-1.5 rounded-full">
             {product.brand}
           </div>

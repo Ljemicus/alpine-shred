@@ -11,6 +11,7 @@ export interface Product {
     flex: string;
   };
   gradient: string;
+  image: string;
   sizes: string[];
 }
 

@@ -11,6 +11,7 @@ export const products: Product[] = [
     category: "All-Mountain",
     specs: { length: "156 cm", width: "25.1 cm", flex: "6/10" },
     gradient: "from-blue-600 via-blue-400 to-cyan-300",
+    image: "https://images.evo.com/imgp/700/250185/1061498/burton-custom-camber-snowboard-2026-.pi.jpg",
     sizes: ["150", "154", "156", "158", "162"],
   },
   {
@@ -23,6 +24,7 @@ export const products: Product[] = [
     category: "Freestyle",
     specs: { length: "152 cm", width: "24.8 cm", flex: "4/10" },
     gradient: "from-purple-600 via-pink-500 to-red-400",
+    image: "https://images.evo.com/imgp/700/250185/1061504/burton-process-flying-v-snowboard-2026-.pi.jpg",
     sizes: ["148", "150", "152", "155", "157"],
   },
   {
@@ -35,6 +37,7 @@ export const products: Product[] = [
     category: "All-Mountain",
     specs: { length: "148 cm", width: "26.4 cm", flex: "5/10" },
     gradient: "from-green-600 via-emerald-400 to-teal-300",
+    image: "https://images.evo.com/imgp/700/233498/984484/ride-warpig-snowboard-2025-.pi.jpg",
     sizes: ["142", "148", "151", "154", "158"],
   },
   {
@@ -47,6 +50,7 @@ export const products: Product[] = [
     category: "All-Mountain",
     specs: { length: "157 cm", width: "25.3 cm", flex: "7/10" },
     gradient: "from-slate-700 via-slate-500 to-zinc-400",
+    image: "https://images.evo.com/imgp/700/233498/984488/ride-algorhythm-snowboard-2025-.pi.jpg",
     sizes: ["152", "155", "157", "160", "163"],
   },
   {
@@ -59,6 +63,7 @@ export const products: Product[] = [
     category: "Freestyle",
     specs: { length: "155 cm", width: "25.0 cm", flex: "6/10" },
     gradient: "from-amber-600 via-orange-500 to-yellow-400",
+    image: "https://images.evo.com/imgp/700/233498/988776/jones-mountain-twin-snowboard-2025-.pi.jpg",
     sizes: ["150", "153", "155", "157", "160"],
   },
   {
@@ -71,6 +76,7 @@ export const products: Product[] = [
     category: "Freeride",
     specs: { length: "159 cm", width: "25.6 cm", flex: "7/10" },
     gradient: "from-sky-600 via-blue-500 to-indigo-600",
+    image: "https://images.evo.com/imgp/700/233498/988780/jones-stratos-snowboard-2025-.pi.jpg",
     sizes: ["153", "156", "159", "162", "165"],
   },
   {
@@ -83,6 +89,7 @@ export const products: Product[] = [
     category: "All-Mountain",
     specs: { length: "155 cm", width: "25.2 cm", flex: "5/10" },
     gradient: "from-red-600 via-orange-500 to-yellow-500",
+    image: "https://images.evo.com/imgp/700/233498/985952/capita-defenders-of-awesome-snowboard-2025-.pi.jpg",
     sizes: ["148", "150", "153", "155", "157", "159"],
   },
   {
@@ -95,6 +102,7 @@ export const products: Product[] = [
     category: "All-Mountain",
     specs: { length: "160 cm", width: "25.5 cm", flex: "8/10" },
     gradient: "from-violet-700 via-purple-600 to-fuchsia-500",
+    image: "https://images.evo.com/imgp/700/233498/985960/capita-mega-mercury-snowboard-2025-.pi.jpg",
     sizes: ["155", "157", "160", "162", "165"],
   },
   {
@@ -107,6 +115,7 @@ export const products: Product[] = [
     category: "All-Mountain",
     specs: { length: "153 cm", width: "24.9 cm", flex: "3/10" },
     gradient: "from-lime-500 via-green-500 to-emerald-600",
+    image: "https://images.evo.com/imgp/700/233498/985946/gnu-head-space-snowboard-2025-.pi.jpg",
     sizes: ["147", "150", "153", "156", "159"],
   },
   {
@@ -119,6 +128,7 @@ export const products: Product[] = [
     category: "Freestyle",
     specs: { length: "154 cm", width: "25.1 cm", flex: "5/10" },
     gradient: "from-teal-500 via-cyan-400 to-blue-500",
+    image: "https://images.evo.com/imgp/700/233498/985948/gnu-riders-choice-snowboard-2025-.pi.jpg",
     sizes: ["148", "151", "154", "157", "160"],
   },
 ];
